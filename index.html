@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Register User</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="registerForm">
+      <h2>사용자 회원가입</h2>
+      <div class="formControl">
+        <label for="userName"> 이름 </label>
+        <input type="text" id="userName" placeholder="Enter User Name" />
+        <small></small>
+      </div>
+      <div class="formControl">
+        <label for="userEmail"> 이메일 </label>
+        <input type="text" id="userEmail" placeholder="Enter User Email" />
+        <small></small>
+      </div>
+      <div class="formControl">
+        <label for="userPassword"> 비밀번호 </label>
+        <input
+          type="password"
+          id="userPassword"
+          placeholder="Enter User Password"
+        />
+        <small></small>
+      </div>
+      <div class="formControl">
+        <label for="passwordCheck"> 비밀번호 확인 </label>
+        <input
+          type="password"
+          id="passwordCheck"
+          placeholder="Enter User Password"
+        />
+        <small></small>
+      </div>
+
+      <div class="btnGroup">
+        <input type="submit" value="회원가입" id="submitBtn" />
+        <input type="button" value="아이디/비밀번호 찾기" id="findAccountBtn" />
+      </div>
+    </form>
+  </body>
+  <script src="registerUser.js"></script>
+</html>
